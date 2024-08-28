@@ -1,0 +1,350 @@
+@media (min-width: 1400px) {
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+    /* navigation css start */
+    .custom-container{
+        max-width: 1100px;
+     }
+    /* navigation css end */
+    
+
+    /* banner css start */
+        .bannerImg img{
+          width: 1100px !important;
+        }
+    /* banner css end */
+}
+
+
+@media(min-width:992px) and (max-width:1199.98px){
+    /* navigation css start */
+    .custom-container{
+        max-width: 960px;
+     }
+    /* navigation css end */
+
+
+       /* banner css start */
+       .bannerImg img{
+        width: 100% !important;
+      }
+  /* banner css end */
+
+
+}
+
+
+@media(min-width:768px) and (max-width:991.98px){
+  
+ /* navigation css start */
+ .custom-container{
+    max-width: 720px;
+ }
+ .leftSide i{
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.mainNavbar{
+    position: relative;
+}
+.rightSide ul{
+    display: none !important;
+}
+ .active ul{
+    display: block !important;
+}
+
+.rightSide {
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+    z-index: 1;
+  }
+  .rightSide ul {
+    background: #191b1d;
+    margin: 0 !important;
+    padding: 15px 0px 15px 0;
+    border-radius: 15px;
+  }
+  .mainNavbar{
+      position: relative;
+  }
+
+
+  .rightSide ul li {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all linear .3s;
+  }
+  .rightSide ul li a{
+    color: #fff !important;
+    transition: all linear .3s !important;
+  }
+  .rightSide ul li:hover{
+    background: #ffff;
+    width: 100%;
+  }
+  .rightSide ul li:hover a{
+  color: #191b1d !important;
+  }
+
+
+/* navigation css end */
+
+       /* banner css start */
+       .bannerImg img{
+        width: 100% !important;
+      }
+      .bannerText h1{
+        width: auto !important;
+        font-size: 60px !important;
+        line-height: 95px !important;
+      }
+      .bannerText span::after {
+        left: -6px !important;
+        top: 11px !important;
+        width: 310px !important;
+        height: 59px !important;
+      }
+      .bannerText p {
+        margin-left: 5rem !important;
+      }
+
+      .bannerText p::after {
+        left: 3rem !important;
+        top: 22rem !important;
+      }
+      .bannerIcon {
+        margin-left: 54px !important;
+      }
+      .letsTalk {
+        right: 30px !important;
+        top: 23rem !important; 
+      }
+  /* banner css end */
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+     
+ /* navigation css start */
+ .custom-container{
+    max-width: 540px;
+ }
+ .leftSide i{
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.mainNavbar{
+    position: relative;
+}
+.rightSide ul{
+    display: none !important;
+}
+ .active ul{
+    display: block !important;
+}
+
+.rightSide {
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+    z-index: 1;
+  }
+  .rightSide ul {
+    background: #191b1d;
+    margin: 0 !important;
+    padding: 15px 0px 15px 0;
+    border-radius: 15px;
+  }
+  .mainNavbar{
+      position: relative;
+  }
+
+
+  .rightSide ul li {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all linear .3s;
+  }
+  .rightSide ul li a{
+    color: #fff !important;
+    transition: all linear .3s !important;
+  }
+  .rightSide ul li:hover{
+    background: #ffff;
+    width: 100%;
+  }
+  .rightSide ul li:hover a{
+  color: #191b1d !important;
+  }
+
+/* navigation css end */
+
+/* banner css start */
+.bannerImg img{
+  width: 100% !important;
+}
+.bannerText h1{
+  width: auto !important;
+  font-size: 51px !important;
+  line-height: 87px !important;
+}
+.bannerText span::after {
+  left: -6px !important;
+  top: 11px !important;
+  width: 310px !important;
+  height: 59px !important;
+}
+.bannerText p {
+  margin-left: 4rem !important;
+}
+
+.bannerText p::after {
+  left: 3rem !important;
+  top: 20.6rem !important;
+}
+.bannerIcon {
+  margin-left: 54px !important;
+}
+.letsTalk {
+  width: 71px !important;
+  height: 71px !important;
+  right: 30px !important;
+  top: 28rem !important;
+}
+.letsTalk a {
+  padding-top: 22px !important;
+  padding-bottom: 0px !important;
+}
+/* banner css end */
+ 
+}
+
+
+@media (max-width: 575.98px) {
+  /* navigation css start */
+ .custom-container{
+    max-width: 90%;
+ }
+ .leftSide i{
+    display: block !important;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.mainNavbar{
+    position: relative;
+}
+.rightSide ul{
+    display: none !important;
+}
+ .active ul{
+    display: block !important;
+}
+
+.rightSide {
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+    z-index: 1;
+  }
+  .rightSide ul {
+    background: #191b1d;
+    margin: 0 !important;
+    padding: 15px 0px 15px 0;
+    border-radius: 15px;
+  }
+  .mainNavbar{
+      position: relative;
+  }
+
+
+  .rightSide ul li {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all linear .3s;
+  }
+  .rightSide ul li a{
+    color: #fff !important;
+    transition: all linear .3s !important;
+  }
+  .rightSide ul li:hover{
+    background: #ffff;
+    width: 100%;
+  }
+  .rightSide ul li:hover a{
+  color: #191b1d !important;
+  }
+
+  .mainNavbar{
+    position: relative;
+  }
+   
+/* navigation css end */
+
+
+
+/* banner css start */
+.bannerImg img{
+  width: 100% !important;
+}
+.bannerText h1{
+  width: auto !important;
+  font-size: 29px !important;
+  line-height: 56px !important;
+}
+.bannerText span::after {
+  left: -2px !important;
+  top: 6px !important;
+  width: 148px !important;
+  height: 28px !important;
+}
+.bannerText p {
+  width: 320px !important;
+  margin-left: 0 !important;
+}
+
+.bannerText p::after {
+  display: none;
+}
+.bannerIcon {
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+}
+
+.letsTalk {
+  width: 71px !important;
+  height: 71px !important;
+  right: 20px !important;
+  top: 27rem !important;
+}
+.letsTalk a {
+  padding-top: 22px !important;
+  padding-bottom: 0px !important;
+}
+#banner {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.bannerImg {
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+}
+/* banner css end */
+
+}
